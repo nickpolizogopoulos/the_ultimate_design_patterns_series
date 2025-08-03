@@ -30,13 +30,32 @@ public class Main {
         System.out.println("Balance: " + balance);
 
         System.out.println("-----------------------------");
+        System.out.println("Abstraction Lesson:");
 
         MailService mailService = new MailService();
         mailService.sendEmail();
+
+        System.out.println("-----------------------------");
+        System.out.println("Inheritance Lesson:");
+
+        TextBox textBox = new TextBox();
+        System.out.print("TextBox ");
+        textBox.setPosition(10, 20);
+
+        System.out.println("-----------------------------");
+        System.out.println("Polymorphism Lesson:");
+
+        drawUIControl(new TextBox());
+        drawUIControl(new CheckBox());
+
     }
 
     public static TaxCalculator getCalculator() {
         return new TaxCalculator2025();
+    }
+
+    public static void drawUIControl(UIControl control) {
+        control.draw();
     }
 
 }
