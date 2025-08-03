@@ -28,6 +28,11 @@ public class Main {
         account.withdraw(100);
         var balance = account.getBalance();
         System.out.println("Balance: " + balance);
+
+        System.out.println("-----------------------------");
+
+        MailService mailService = new MailService();
+        mailService.sendEmail();
     }
 
     public static TaxCalculator getCalculator() {
