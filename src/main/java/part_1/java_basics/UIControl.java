@@ -1,4 +1,4 @@
-package app.web.nickpolizogopoulos;
+package part_1.java_basics;
 
 // Inheritance & Polymorphism lessons
 
