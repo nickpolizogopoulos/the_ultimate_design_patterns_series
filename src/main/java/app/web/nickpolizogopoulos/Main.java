@@ -3,6 +3,7 @@ package app.web.nickpolizogopoulos;
 // Part 1
     import part_1.java_basics.JavaBasics;
     import part_1.p1.Memento.Memento;
+    import part_1.p2.State.State;
 
 public class Main {
 
@@ -10,7 +11,9 @@ public class Main {
 
         // Part 1
 //            JavaBasics.main();
-            Memento.main();
+//            Memento.main();
+            State.main();
+
 
     }
 
