@@ -1,5 +1,8 @@
 package part_1.p3.Iterator;
 
+// The Iterator Design Pattern by GoF.
+// To demonstrate the Iterator pattern, this example focuses on a browser's history mechanism.
+
 public class IteratorPattern {
     public static void main() {
         System.out.println("========= State Pattern =========");

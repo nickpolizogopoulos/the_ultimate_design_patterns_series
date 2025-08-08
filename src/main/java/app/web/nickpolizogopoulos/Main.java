@@ -5,6 +5,7 @@ package app.web.nickpolizogopoulos;
     import part_1.p1.Memento.Memento;
     import part_1.p2.State.State;
     import part_1.p3.Iterator.IteratorPattern;
+    import part_1.p4.Strategy.Strategy;
 
 public class Main {
 
@@ -14,7 +15,8 @@ public class Main {
 //            JavaBasics.main();
 //            Memento.main();
 //            State.main();
-            IteratorPattern.main();
+//            IteratorPattern.main();
+            Strategy.main();
 
 
     }

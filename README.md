@@ -14,3 +14,4 @@ UML Diagrams: Draw.io
 - Memento
 - State
 - Iterator
+- Strategy
