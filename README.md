@@ -13,3 +13,4 @@ UML Diagrams: Draw.io
 ### Part 1
 - Memento
 - State
+- Iterator

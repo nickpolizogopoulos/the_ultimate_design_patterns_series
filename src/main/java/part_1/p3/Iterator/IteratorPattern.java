@@ -1,0 +1,21 @@
+package part_1.p3.Iterator;
+
+public class IteratorPattern {
+    public static void main() {
+        System.out.println("========= State Pattern =========");
+
+        BrowserHistory history = new BrowserHistory();
+        history.push("https://www.google.com");
+        history.push("https://www.twitter.com");
+        history.push("https://www.wikipedia.com");
+
+        Iterator<String> iterator = history.createIterator();
+
+        while (iterator.hasNext()) {
+            var url = iterator.currentUrl();
+            System.out.println(url);
+            iterator.next();
+        }
+
+    }
+}
