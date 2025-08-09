@@ -15,3 +15,4 @@ UML Diagrams: Draw.io
 - State
 - Iterator
 - Strategy
+- Template Method

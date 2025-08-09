@@ -6,6 +6,7 @@ package app.web.nickpolizogopoulos;
     import part_1.p2.State.State;
     import part_1.p3.Iterator.IteratorPattern;
     import part_1.p4.Strategy.Strategy;
+    import part_1.p5.Template_Method.TemplateMethod;
 
 public class Main {
 
@@ -16,8 +17,8 @@ public class Main {
 //            Memento.main();
 //            State.main();
 //            IteratorPattern.main();
-            Strategy.main();
-
+//            Strategy.main();
+        TemplateMethod.main();
 
     }
 
