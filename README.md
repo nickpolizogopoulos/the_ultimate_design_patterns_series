@@ -16,3 +16,4 @@ UML Diagrams: Draw.io
 - Iterator
 - Strategy
 - Template Method
+- Command
