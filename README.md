@@ -17,3 +17,4 @@ UML Diagrams: Draw.io
 - Strategy
 - Template Method
 - Command
+- Observer
