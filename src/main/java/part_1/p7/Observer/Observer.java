@@ -1,5 +1,7 @@
 package part_1.p7.Observer;
 
 public interface Observer {
-    void update();
+
+    // The Push Style of communication
+    void update(int value);
 }
