@@ -8,9 +8,16 @@ public class DataSource extends Subject {
         return value;
     }
 
+    // The Push Style of communication
+//    public void setValue(int value) {
+//        this.value = value;
+//        notifyObservers(value);
+//    }
+
+    // The Pull Style of communication
     public void setValue(int value) {
         this.value = value;
-        notifyObservers(value);
+        notifyObservers();
     }
 
 }

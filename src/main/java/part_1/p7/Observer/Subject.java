@@ -16,9 +16,16 @@ public class Subject {
         observers.remove(observer);
     }
 
-    public void notifyObservers(int value) {
+    // The Push Style of communication
+//    public void notifyObservers(int value) {
+//        for (Observer observer : observers)
+//            observer.update(value);
+//    }
+
+    // The Pull Style of communication
+    public void notifyObservers() {
         for (Observer observer : observers)
-            observer.update(value);
+            observer.update();
     }
 
 }
