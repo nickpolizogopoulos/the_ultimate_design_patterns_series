@@ -3,7 +3,7 @@ package part_1.p7.Observer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Subject {
+public abstract class Subject {
     private List<Observer> observers = new ArrayList<>();
 
     // add observer

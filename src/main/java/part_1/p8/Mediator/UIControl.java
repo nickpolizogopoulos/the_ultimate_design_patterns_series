@@ -1,11 +1,19 @@
 package part_1.p8.Mediator;
 
+import java.util.List;
+import java.util.ArrayList;
+
 public class UIControl {
 
-    protected DialogBox owner;
+    private List<EventHandler> eventHandlers = new ArrayList<>();
 
-    public UIControl(DialogBox owner) {
-        this.owner = owner;
+    public void addEventHandler(EventHandler observer) {
+        eventHandlers.add(observer);
+    }
+
+    protected void notifyEventHandlers() {
+        for (EventHandler observer : eventHandlers)
+            observer.handle();
     }
 
 }
