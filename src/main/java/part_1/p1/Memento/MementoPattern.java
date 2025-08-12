@@ -3,7 +3,7 @@ package part_1.p1.Memento;
 // The Memento Design Pattern by GoF.
 // To demonstrate the Memento pattern, this example focuses on implementing an Undo mechanism in a text editor.
 
-public class Memento {
+public class MementoPattern {
     public static void main() {
         System.out.println("========= Memento Pattern =========");
 

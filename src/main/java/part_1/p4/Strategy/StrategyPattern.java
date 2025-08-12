@@ -3,7 +3,7 @@ package part_1.p4.Strategy;
 // The Strategy Design Pattern by GoF.
 // To demonstrate the Strategy pattern, this example focuses on saving user images in various formats with filters.
 
-public class Strategy {
+public class StrategyPattern {
 
     public static void main() {
         System.out.println("========= Strategy Pattern =========");
