@@ -1,5 +1,14 @@
 package part_1.p7.Observer;
 
+// The Observer Design Pattern by GoF.
+// To demonstrate the Observer pattern, this example focuses on implementing a spreadsheet with two tabs.
+
+// The first tab stores some values and a pie chart that displays them.
+// In the second tab we have the total of values on the first sheet.
+
+// When we change any value in the first sheet, the pie chart and the total value (second tab) will
+// get updated at once.
+
 public class ObserverPattern {
 
     public static void main() {
