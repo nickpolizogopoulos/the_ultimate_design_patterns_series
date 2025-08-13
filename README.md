@@ -18,3 +18,4 @@ UML Diagrams: Draw.io
 - Template Method
 - Command
 - Observer
+- Mediator

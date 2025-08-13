@@ -9,6 +9,7 @@ package app.web.nickpolizogopoulos;
     import part_1.p6.Command.CommandPattern;
     import part_1.p7.Observer.ObserverPattern;
     import part_1.p8.Mediator.MediatorPattern;
+    import part_1.p9.ChainOfResponsibility.ChainOfResponsibilityPattern;
 
 public class Main {
 
@@ -23,7 +24,8 @@ public class Main {
 //            TemplateMethodPattern.main();
 //            CommandPattern.main();
 //            ObserverPattern.main();
-            MediatorPattern.main();
+//            MediatorPattern.main();
+            ChainOfResponsibilityPattern.main();
     }
 
 }
