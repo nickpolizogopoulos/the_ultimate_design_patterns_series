@@ -8,7 +8,8 @@ public class ChainOfResponsibilityPattern {
     public static void main() {
         System.out.println("========= Chain Of Responsibility Pattern =========");
 
-        Compressor compressor = new Compressor(null);
+        Encryptor encryptor = new Encryptor(null);
+        Compressor compressor = new Compressor(encryptor);
         Logger logger = new Logger(compressor);
         Authenticator authenticator = new Authenticator(logger);
 
