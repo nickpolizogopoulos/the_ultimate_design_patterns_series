@@ -8,6 +8,8 @@ public class ChainOfResponsibilityPattern {
     public static void main() {
         System.out.println("========= Chain Of Responsibility Pattern =========");
 
+        // Pipeline: Authenticator -> Logger -> Compressor -> Encryptor.
+
         Encryptor encryptor = new Encryptor(null);
         Compressor compressor = new Compressor(encryptor);
         Logger logger = new Logger(compressor);

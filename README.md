@@ -19,3 +19,4 @@ UML Diagrams: Draw.io
 - Command
 - Observer
 - Mediator
+- Chain of Responsibility
