@@ -1,16 +1,7 @@
 package app.web.nickpolizogopoulos;
 
 // Part 1
-    import part_1.p1.Memento.MementoPattern;
-    import part_1.p10.Visitor.VisitorPattern;
-    import part_1.p2.State.StatePattern;
-    import part_1.p3.Iterator.IteratorPattern;
-    import part_1.p4.Strategy.StrategyPattern;
-    import part_1.p5.Template_Method.TemplateMethodPattern;
-    import part_1.p6.Command.CommandPattern;
-    import part_1.p7.Observer.ObserverPattern;
-    import part_1.p8.Mediator.MediatorPattern;
-    import part_1.p9.ChainOfResponsibility.ChainOfResponsibilityPattern;
+    import part_1_behavioral.p10.Visitor.VisitorPattern;
 
 public class Main {
 
