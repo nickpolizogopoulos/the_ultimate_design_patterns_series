@@ -20,3 +20,4 @@ UML Diagrams: Draw.io
 - Observer
 - Mediator
 - Chain of Responsibility
+- Visitor

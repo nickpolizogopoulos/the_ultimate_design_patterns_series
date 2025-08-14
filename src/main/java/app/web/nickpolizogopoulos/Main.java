@@ -2,6 +2,7 @@ package app.web.nickpolizogopoulos;
 
 // Part 1
     import part_1.p1.Memento.MementoPattern;
+    import part_1.p10.Visitor.VisitorPattern;
     import part_1.p2.State.StatePattern;
     import part_1.p3.Iterator.IteratorPattern;
     import part_1.p4.Strategy.StrategyPattern;
@@ -25,7 +26,8 @@ public class Main {
 //            CommandPattern.main();
 //            ObserverPattern.main();
 //            MediatorPattern.main();
-            ChainOfResponsibilityPattern.main();
+//            ChainOfResponsibilityPattern.main();
+            VisitorPattern.main();
     }
 
 }
