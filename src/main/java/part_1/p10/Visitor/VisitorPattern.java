@@ -11,6 +11,8 @@ public class VisitorPattern {
         htmlDocument.addNode(new AnchorNode());
 
         htmlDocument.execute(new HighlightOperation());
+        htmlDocument.execute(new PlainTextOperation());
+
     }
 
 }
