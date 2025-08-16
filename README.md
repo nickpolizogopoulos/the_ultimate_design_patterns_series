@@ -10,7 +10,7 @@ UML Diagrams: Draw.io
 
 ## Contents
 
-### Part 1
+### Part 1 - Behavioral Patterns 
 - Memento
 - State
 - Iterator
@@ -21,3 +21,6 @@ UML Diagrams: Draw.io
 - Mediator
 - Chain of Responsibility
 - Visitor
+
+### Part 2 - Structural Patterns
+- Composite
