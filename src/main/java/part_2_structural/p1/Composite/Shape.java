@@ -7,4 +7,9 @@ public class Shape implements Component {
         System.out.println("Rendering Shape.");
     }
 
+    @Override
+    public void move() {
+        System.out.println("Moving Shape.");
+    }
+
 }

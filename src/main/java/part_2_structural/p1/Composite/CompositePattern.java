@@ -16,5 +16,6 @@ public class CompositePattern {
         parentGroup.add(squares);
         parentGroup.add(circles);
         parentGroup.render();
+        parentGroup.move();
     }
 }
