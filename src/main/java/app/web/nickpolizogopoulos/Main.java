@@ -1,8 +1,21 @@
 package app.web.nickpolizogopoulos;
 
 // Part 1
+    import part_1_behavioral.java_basics.JavaBasics;
+    import part_1_behavioral.p1.Memento.MementoPattern;
     import part_1_behavioral.p10.Visitor.VisitorPattern;
+    import part_1_behavioral.p2.State.StatePattern;
+    import part_1_behavioral.p3.Iterator.IteratorPattern;
+    import part_1_behavioral.p4.Strategy.StrategyPattern;
+    import part_1_behavioral.p5.Template_Method.TemplateMethodPattern;
+    import part_1_behavioral.p6.Command.CommandPattern;
+    import part_1_behavioral.p7.Observer.ObserverPattern;
+    import part_1_behavioral.p8.Mediator.MediatorPattern;
+    import part_1_behavioral.p9.ChainOfResponsibility.ChainOfResponsibilityPattern;
+
+// Part 2
     import part_2_structural.p1.Composite.CompositePattern;
+    import part_2_structural.p2.Adapter.AdapterPattern;
 
 public class Main {
 
@@ -22,7 +35,8 @@ public class Main {
 //            VisitorPattern.main();
 
         // Part 2 - Structural Patterns, Relationships between Objects
-            CompositePattern.main();
+//            CompositePattern.main();
+            AdapterPattern.main();
 
     }
 
