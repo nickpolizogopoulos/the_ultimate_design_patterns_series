@@ -16,6 +16,7 @@ package app.web.nickpolizogopoulos;
 // Part 2
     import part_2_structural.p1.Composite.CompositePattern;
     import part_2_structural.p2.Adapter.AdapterPattern;
+    import part_2_structural.p4.Facade.FacadePattern;
 
 public class Main {
 
@@ -36,7 +37,8 @@ public class Main {
 
         // Part 2 - Structural Patterns, Relationships between Objects
 //            CompositePattern.main();
-            AdapterPattern.main();
+//            AdapterPattern.main();
+            FacadePattern.main();
 
     }
 
