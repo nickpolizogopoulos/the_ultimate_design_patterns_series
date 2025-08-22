@@ -18,7 +18,12 @@ public class BridgePattern {
 //        remoteControl.turnOff();
 
         // Advanced Sony Remote Control
-        AdvancedRemoteControl advancedRemoteControl = new AdvancedRemoteControl(new SonyTV());
+//        AdvancedRemoteControl advancedRemoteControl = new AdvancedRemoteControl(new SonyTV());
+//        advancedRemoteControl.setChannel(10);
+
+        // Advanced LG Remote Control
+        AdvancedRemoteControl advancedRemoteControl = new AdvancedRemoteControl(new LGTV());
+        advancedRemoteControl.turnOn();
         advancedRemoteControl.setChannel(10);
 
     }
