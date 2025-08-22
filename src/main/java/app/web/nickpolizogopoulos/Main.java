@@ -19,6 +19,7 @@ package app.web.nickpolizogopoulos;
     import part_2_structural.p3.Decorator.DecoratorPattern;
     import part_2_structural.p4.Facade.FacadePattern;
     import part_2_structural.p5.Flyweight.FlyweightPattern;
+    import part_2_structural.p6.Bridge.BridgePattern;
 
 public class Main {
 
@@ -42,7 +43,8 @@ public class Main {
 //            AdapterPattern.main();
 //            DecoratorPattern.main();
 //            FacadePattern.main();
-            FlyweightPattern.main();
+//            FlyweightPattern.main();
+            BridgePattern.main();
 
     }
 
