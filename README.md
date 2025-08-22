@@ -25,3 +25,5 @@ UML Diagrams: Draw.io
 ### Part 2 - Structural Patterns
 - Composite
 - Facade
+- Flyweight
+- Bridge
