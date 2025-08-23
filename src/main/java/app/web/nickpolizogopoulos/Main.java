@@ -20,6 +20,7 @@ package app.web.nickpolizogopoulos;
     import part_2_structural.p4.Facade.FacadePattern;
     import part_2_structural.p5.Flyweight.FlyweightPattern;
     import part_2_structural.p6.Bridge.BridgePattern;
+    import part_2_structural.p7.Proxy.ProxyPattern;
 
 public class Main {
 
@@ -44,7 +45,8 @@ public class Main {
 //            DecoratorPattern.main();
 //            FacadePattern.main();
 //            FlyweightPattern.main();
-            BridgePattern.main();
+//            BridgePattern.main();
+            ProxyPattern.main();
 
     }
 
