@@ -24,6 +24,11 @@ UML Diagrams: Draw.io
 
 ### Part 2 - Structural Patterns
 - Composite
+- Adapter
+- Decorator
 - Facade
 - Flyweight
 - Bridge
+- Proxy
+
+
