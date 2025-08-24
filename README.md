@@ -33,3 +33,4 @@ UML Diagrams: Draw.io
 
 ### Part 3 - Creational Patterns
 - Prototype
+- Singleton
