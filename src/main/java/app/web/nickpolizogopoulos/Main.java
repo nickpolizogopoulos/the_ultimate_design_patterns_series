@@ -24,6 +24,7 @@ package app.web.nickpolizogopoulos;
 
 // Part 3
     import part_3_creational.p1.Prototype.PrototypePattern;
+    import part_3_creational.p2.Singleton.SingletonPattern;
 
 public class Main {
     public static void main(String[] args) {
@@ -51,7 +52,8 @@ public class Main {
 //            ProxyPattern.main();
 
         // Part 3 - Creational Patterns, Creating Objects
-            PrototypePattern.main();
+//            PrototypePattern.main();
+            SingletonPattern.main();
 
     }
 }
