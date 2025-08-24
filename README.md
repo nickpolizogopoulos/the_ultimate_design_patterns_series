@@ -31,4 +31,5 @@ UML Diagrams: Draw.io
 - Bridge
 - Proxy
 
-
+### Part 3 - Creational Patterns
+- Prototype

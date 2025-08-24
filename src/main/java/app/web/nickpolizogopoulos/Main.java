@@ -22,8 +22,10 @@ package app.web.nickpolizogopoulos;
     import part_2_structural.p6.Bridge.BridgePattern;
     import part_2_structural.p7.Proxy.ProxyPattern;
 
-public class Main {
+// Part 3
+    import part_3_creational.p1.Prototype.PrototypePattern;
 
+public class Main {
     public static void main(String[] args) {
 
         // Part 1 - Behavioral Patterns, Interaction and Communication between Objects
@@ -46,8 +48,10 @@ public class Main {
 //            FacadePattern.main();
 //            FlyweightPattern.main();
 //            BridgePattern.main();
-            ProxyPattern.main();
+//            ProxyPattern.main();
+
+        // Part 3 - Creational Patterns, Creating Objects
+            PrototypePattern.main();
 
     }
-
 }
